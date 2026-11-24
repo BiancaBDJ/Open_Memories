@@ -1,0 +1,29 @@
+# User data — never commit anyone's memories.
+# The memories/ folder holds real, personal records. It stays on your
+# own machine, always. If you want to share a backup, export it yourself
+# with `python open_memories.py export` and share that file deliberately.
+memories/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# Test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
